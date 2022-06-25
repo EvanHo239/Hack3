@@ -1,0 +1,16 @@
+body{
+  text-align: center;
+}
+
+.first-box{
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+
+}
+
+.second-box{
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+}
