@@ -1,16 +1,91 @@
-body{
+body {
   text-align: center;
 }
 
-.first-box{
+.first-box {
   display: inline-block;
   text-align: left;
   width: 40%;
-
 }
 
-.second-box{
+.second-box {
   display: inline-block;
   text-align: left;
   width: 40%;
+}
+
+/* heading */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* containers */
+#navbar .container-fluid {
+  padding: 0 10%;
+}
+
+.container-fluid {
+  padding: 8% 10% 3%;
+}
+
+/* navbar */
+#navbar {
+  background-color: white;
+  box-shadow: 20px 0 20px black;
+}
+
+/* title */
+#title {
+  background-image: linear-gradient(#2ebfc6, #322072);;
+  text-align: left;
+}
+
+#title .col-lg-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-container {
+  text-align: center;
+  position: relative;
+}
+
+.world-map {
+  width: 100%;
+  z-index: -1;
+}
+
+.fa-solid {
+  color: red;
+  position: absolute;
+}
+
+.marker1 {
+  right: 45%;
+  bottom: 25%;
+}
+
+.marker2 {
+  left: 25%;
+  top: 60%;
+}
+
+.marker3 {
+  top: 40%;
+  right: 35%;
+}
+
+.marker4 {
+  bottom: 15%;
+  right: 42%;
+}
+
+.marker5 {
+  bottom: 10%;
+  left: 15%;
 }
