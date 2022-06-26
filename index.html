@@ -29,13 +29,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
+              <a class="nav-link" href="#description">Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
+              <a class="nav-link" href="#about-us">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#cta">Download</a>
+              <a class="nav-link" href="#title">Map</a>
             </li>
           </ul>
         </div>
@@ -49,16 +49,17 @@
       </div>
       <div class="map-container col-lg-8">
         <img class="world-map" src="images/worldMap.png">
-        <button class="btn" onclick="descriptionOne()"><i class="marker1 fa-solid fa-location-dot fa-2x"></i></button>
-        <button class="btn" onclick="descriptionTwo()"><i class="marker2 fa-solid fa-location-dot fa-2x"></i></button>
-        <button class="btn" onclick="descriptionThree()"><i class="marker3 fa-solid fa-location-dot fa-2x"></i></button>
-        <button class="btn" onclick="descriptionFour()"><i class="marker4 fa-solid fa-location-dot fa-2x"></i></button>
-        <button class="btn" onclick="descriptionFive()"><i class="marker5 fa-solid fa-location-dot fa-2x"></i></button>
+        <a onclick="descriptionOne()" href="#description"><i class="marker1 fa-solid fa-location-dot"></i></a>
+        <a onclick="descriptionTwo()" href="#description"><i class="marker2 fa-solid fa-location-dot"></i></a>
+        <a onclick="descriptionThree()" href="#description"><i class="marker3 fa-solid fa-location-dot"></i></a>
+        <a onclick="descriptionFour()" href="#description"><i class="marker4 fa-solid fa-location-dot "></i></a>
+        <a onclick="descriptionFive()" href="#description"><i class="marker5 fa-solid fa-location-dot "></i></a>
       </div>
     </div>
   </section>
   <section id="description">
-    <div class="left-side">
+    <div class="row container-fluid">
+    <div class="left-side col-lg-6">
       <div class="first-box border-elevation">
         <h2>Overcoming The Water Crisis Together</h2>
         <p>
@@ -78,7 +79,7 @@
       </div>
     </div>
 
-    <div class="right-side border-elevation">
+    <div class="right-side border-elevation col-lg-6">
       <h2>Organizations</h2>
       <div class="donation-site first-site">
         <a href="https://generosity.org/"><h4>Generosity.org</h4></a>
@@ -99,9 +100,10 @@
            can work and start businesses. Clean water really is just the beginning,  it unlocks potential and empowers people to thrive.
         </p>
       </div>
-    </div>
-
-    <div class="about-us border-elevation">
+</div>
+</section>
+<section id ="about-us">
+    <div class="about-us container-fluid">
       <h3>About Us</h3>
       <p>
         Hey everyone! We are two aspiring highschool programmers who's goal is to help people.
@@ -110,8 +112,14 @@
         gave us the perfect to gain real world experience. So again, thank you for everything!
       </p>
     </div>
-  </section>
 
+  <footer id="footer" class ="container-fluid">
+      <i class="social-media-icons fa-brands fa-twitter"></i>
+      <i class="social-media-icons fa-brands fa-facebook-f"></i>
+      <i class="social-media-icons fa-brands fa-instagram"></i>
+      <i class="social-media-icons fa-solid fa-envelope"></i>
+      <p>© Copyright Pinpoint Water</p>
+  </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="index.js" charset="utf-8"></script>
 </body>

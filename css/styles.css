@@ -1,9 +1,6 @@
 body{
   font-size: 125%;
-  text-align: center;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
 }
 
 h1{
@@ -13,6 +10,9 @@ h1{
 h2{
   color: #0F5BB2;
   font-size: 175%;
+}
+h3{
+  text-align: center;
 }
 
 h4{
@@ -36,30 +36,11 @@ p{
   margin-bottom: 30px;
 }
 
-.left-side{
-  display: inline-block;
-  float: left;
-  height: 67vh;
-  margin-left: 2.5%;
-  text-align: left;
-  width: 42.5%;
-}
-
-.right-side{
-  display: inline-block;
-  height: 67vh;
-  margin-left: 3%;
-  text-align: left;
-  width: 50%;
-}
-
 .first-box{
-  display: inline-block;
   text-align: left;
 }
 
 .second-box{
-  display: inline-block;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -67,14 +48,6 @@ p{
 .donation-site{
   font-size: 90%;
   margin-top: 3%;
-}
-
-.about-us{
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 15%;
-  padding: 20px;
-  width: 70%;
 }
 
 /***********************************************************SHADI'S STYLING************************************************************/
@@ -94,8 +67,12 @@ p{
   padding: 0 10%;
 }
 
-.container-fluid {
+#title .container-fluid {
   padding: 8% 10% 3%;
+}
+
+.container-fluid {
+  padding: 4% 10% 3%;
 }
 
 /* navbar */
@@ -103,7 +80,9 @@ p{
   background-color: white;
   box-shadow: 20px 0 20px black;
 }
-
+.nav-item {
+  padding: 0 20px;
+}
 /* title */
 #title {
   background-image: linear-gradient(#2ebfc6, #322072);;
@@ -130,33 +109,75 @@ p{
 .fa-solid {
   color: red;
   position: absolute;
+  font-size: 1.3em;
 }
 
 .marker1 {
-  right: 45%;
-  bottom: 47%;
+  right: 48%;
+  bottom: 44%;
 }
 
 .marker2 {
   left: 43.5%;
-  top: 46%;
+  top: 53%;
 }
 
 .marker3 {
-  top: 48.5%;
-  right: 38.5%;
+  top: 52%;
+  right: 40%;
 }
 
 .marker4 {
-  bottom: 42%;
-  right: 40.25%;
+  bottom: 38%;
+  right: 42%;
 }
 
 .marker5 {
-  bottom: 49.5%;
-  left: 54.75%;
+  bottom: 55%;
+  left: 55%;
 }
 
+.marker1:hover {
+color: blue;
+}
+.marker2:hover {
+color: blue;
+}
+.marker3:hover {
+color: blue;
+}
+.marker4:hover {
+color: blue;
+}
+.marker5:hover {
+color: blue;
+}
+ /* description */
+ #description {
+
+ }
+ .left-side {
+   padding-right: 5%;
+ }
+
+ /* about us */
+ #about-us{
+background-image: linear-gradient(#2ebfc6, #322072);;
+color: white;
+text-align: center;
+ }
+ /* footer */
+ #footer {
+   background-color: white
+   color: #63ACFF;
+ }
+
+ #footer .fa-solid {
+   font-size: 1em;
+   color: white;
+   position: static;
+   padding: 0 5px;
+ }
 /* Media queries */
 @media (max-width: 1028px) {
   #title .container-fluid {
