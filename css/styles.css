@@ -1,18 +1,84 @@
-body {
+body{
+  font-size: 125%;
   text-align: center;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 
-.first-box {
-  display: inline-block;
-  text-align: left;
-  width: 40%;
+h1{
+  color: #0F5BB2;
 }
 
-.second-box {
+h2{
+  color: #0F5BB2;
+  font-size: 175%;
+}
+
+h4{
+  color: #63ACFF;
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+.border-elevation{
+  box-shadow: 8px 8px 16px #709ccc;
+  border-color: #709ccc;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.world-map{
+  margin-bottom: 30px;
+}
+
+.left-side{
+  display: inline-block;
+  float: left;
+  height: 67vh;
+  margin-left: 2.5%;
+  text-align: left;
+  width: 42.5%;
+}
+
+.right-side{
+  display: inline-block;
+  height: 67vh;
+  margin-left: 3%;
+  text-align: left;
+  width: 50%;
+}
+
+.first-box{
   display: inline-block;
   text-align: left;
-  width: 40%;
 }
+
+.second-box{
+  display: inline-block;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.donation-site{
+  font-size: 90%;
+  margin-top: 3%;
+}
+
+.about-us{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  padding: 20px;
+  width: 70%;
+}
+
+/***********************************************************SHADI'S STYLING************************************************************/
+
 
 /* heading */
 .big-heading {
@@ -42,6 +108,7 @@ body {
 #title {
   background-image: linear-gradient(#2ebfc6, #322072);;
   text-align: left;
+  margin-bottom: 50px;
 }
 
 #title .col-lg-4 {
@@ -67,25 +134,35 @@ body {
 
 .marker1 {
   right: 45%;
-  bottom: 25%;
+  bottom: 47%;
 }
 
 .marker2 {
-  left: 25%;
-  top: 60%;
+  left: 43.5%;
+  top: 46%;
 }
 
 .marker3 {
-  top: 40%;
-  right: 35%;
+  top: 48.5%;
+  right: 38.5%;
 }
 
 .marker4 {
-  bottom: 15%;
-  right: 42%;
+  bottom: 42%;
+  right: 40.25%;
 }
 
 .marker5 {
-  bottom: 10%;
-  left: 15%;
+  bottom: 49.5%;
+  left: 54.75%;
 }
+
+/* Media queries */
+@media (max-width: 1028px) {
+  #title .container-fluid {
+      padding: 20% 10% 3%;
+  }
+    #title {
+      text-align: center;
+    }
+  }
